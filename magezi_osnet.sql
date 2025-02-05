@@ -159,6 +159,27 @@ CREATE TABLE `withdrawals` (
   `processed_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+
+-- Migration: Add membership column and create subscriptions table
+
+-- 1. Add membership column to users table
+ALTER TABLE users 
+ADD COLUMN membership ENUM('Registered','Subscribed') NOT NULL DEFAULT 'Registered';
+
+-- 2. Create subscriptions table
+CREATE TABLE `subscriptions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `association_id` int(11) NOT NULL,
+  `membership_category_id` int(11) NOT NULL,
+  `subscribed_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`user_id`) REFERENCES users(id),
+  FOREIGN KEY (`association_id`) REFERENCES alumni_associations(id),
+  FOREIGN KEY (`membership_category_id`) REFERENCES membership_categories(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
 --
 -- Indexes for dumped tables
 --
