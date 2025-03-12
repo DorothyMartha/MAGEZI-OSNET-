@@ -1,0 +1,174 @@
+.form-container, .table-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.contact-people {
+    display: block;
+    margin-top: 5px;
+}
+
+.table-container td a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.table-container td a:hover {
+    text-decoration: underline;
+}
+/* Edit Button */
+.edit-button {
+    background-color: green;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: darkgreen;
+}
+
+/* Delete Button */
+.delete-button {
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+/* Override default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Add Association Button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button[type="submit"]:active {
+    transform: scale(1);
+}
+
+/* Search bar styles */
+.search-container {
+    margin-bottom: 20px;
+}
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+.search-container input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.top-nav {
+    background-color: #1f3d7a;
+    width: 80%; /* You can use percentages */
+    max-width: 870px; /* Or set a specific max width */
+    color: #F1F1F1;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px; /* Original padding kept */
+    left: 300px; /* Original left offset kept */
+    z-index: 1000;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+    height: 40px; /* Original height kept */
+    position: fixed; /* Changed to fixed for viewport sticking */
+    top: 0; /* Stick to top of screen */
+    border-radius: 8px;
+    
+    }
+    
+    .top-nav h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    color: #F1F1F1;
+    }
+    
+    .top-nav .user-info span {
+    font-size: 14px;
+    color: #E0E0E0;
+    }
+    .main-content {
+        margin-left: 220px;
+        padding: 20px;
+    }

@@ -1,0 +1,246 @@
+:where([class^="ri-"])::before { content: "\f3c2"; }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.login-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    text-align: center;
+}
+
+
+.py-20 {
+    padding-top: 0.5rem;
+    padding-bottom: 5rem;
+}
+
+.login-container h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.3);
+}
+
+/* Centering Show Password */
+.password-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+#show-password {
+    cursor: pointer;
+}
+
+#show-password + label {
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+/* Fixed button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #314e90;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background: #1f5f8b;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+
+
+}
+#learn-more-btn-1, #learn-more-btn-2 {
+    font-size: 14px;  /* Adjust size */
+    padding: 6px 12px; /* Adjust padding */
+    display: inline-block;
+}
+/* Light, Shiny, Soft Orange with improved readability */
+.bg-light-shiny-orange {
+        background: linear-gradient(135deg, #FFCC66, #FFBB33); /* Lighter, shinier orange */
+        box-shadow: 0 4px 8px rgba(255, 187, 51, 0.2); /* Soft shadow for shine */
+        transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+        color: #333; /* Dark text color for readability */
+        padding: 20px; /* Added padding for better spacing */
+    }
+
+    .bg-light-shiny-orange h3, .bg-light-shiny-orange p {
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Soft text shadow for readability */
+    }
+
+    .bg-light-shiny-orange h3 {
+        color: #333; /* Dark color for titles */
+        font-weight: bold; /* Emphasize titles */
+    }
+
+    .bg-light-shiny-orange p {
+        color: #fff;  /* Soft light gray color for description text */
+        font-size: 1rem; /* Make body text slightly bigger for easier reading */
+        line-height: 1.5; /* Increase line-height for better spacing */
+    }
+
+    /* Location text should be visible with darker gray */
+    .bg-light-shiny-orange .ri-map-pin-line {
+        color: #555555; /* Dark gray icon for better visibility */
+    }
+
+    .bg-light-shiny-orange .text-sm {
+        color: #555555; /* Dark gray color for location text */
+    }
+
+    /* Hover effect with better contrast */
+    .bg-light-shiny-orange:hover {
+        background: linear-gradient(135deg, #FFBB33, #FFCC66); /* Slightly darker hover */
+        box-shadow: 0 8px 16px rgba(255, 187, 51, 0.3); /* Stronger shine effect on hover */
+        color: #333; /* Keep dark text color for readability */
+    }
+
+    /* Hover state for titles and descriptions */
+    .bg-light-shiny-orange:hover h3,
+    .bg-light-shiny-orange:hover p {
+        color: #fff; /* Keep white text color when hovered */
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Stronger text shadow for emphasis */
+    }
+
+    /* Visitor link styling */
+    .visitor-link {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #1f3d7a;
+            text-decoration: none;
+            padding: 8px 15px;
+            border: 2px solid #1f3d7a;
+            border-radius: 5px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .visitor-link:hover {
+            background: #1f3d7a;
+            color: white;
+        }
+        .join-btn {
+        background-color: #1f3d7a; /* Background color */
+        width: fit-content; /* Adjust width to fit content */
+        min-width: 80px; /* Minimum width to prevent it from being too narrow */
+        color: white; /* Text color */
+        border: 2px solid #1f3d7a; /* Border color (same as background for a solid look) */
+        padding: 4px 10px; /* Padding for better spacing */
+        border-radius: 8px; /* Rounded corners */
+        font-size: 16px; /* Font size */
+        font-weight: bold; /* Bold text */
+        cursor: pointer; /* Pointer cursor on hover */
+        white-space: nowrap;
+        margin-top: 8px;
+        transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    }
+
+    .join-btn:hover {
+        background-color: #163b61; /* Darker background on hover */
+        border-color: #163b61; /* Darker border on hover */
+        color: white; /* Ensure text color remains white on hover */
+    }
+    /* Styling for the details table */
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header and data styling */
+.details-table th,
+.details-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.details-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.details-table td {
+    color: #333;
+}
+
+/* Alternate row coloring for better readability */
+.details-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+.details-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .details-table th, .details-table td {
+        padding: 10px;
+    }
+}
+/* Custom wide container for sections starting from search */
+.wide-container {
+    max-width: 1700px; /* Wider to reduce margin size on large screens */
+    padding-left: 0.75rem; /* 12px, meets your >=10px requirement */
+    padding-right: 0.75rem; /* Keeps content 12px from edges */
+    margin-left: auto;
+    margin-right: auto;
+}

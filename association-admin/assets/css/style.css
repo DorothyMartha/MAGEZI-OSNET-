@@ -1,0 +1,125 @@
+
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #666;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Buttons & Links */
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a[href*="create"], a[href*="edit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+a[href*="create"]:hover, a[href*="edit"]:hover {
+    background-color: #2f4872; /* Darker shade on hover */
+}
+
+a[href*="delete"] {
+    background-color:  #e03c31;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+a[href*="delete"]:hover {
+    background-color: #c03227; /* Slightly darker on hover */
+}
+
+/* Forms */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .top-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.cancel-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #dc3545; /* Red color (Bootstrap's danger red) */
+    color: #fff; /* White text for contrast */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cancel-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+    color: #fff; /* Keep text white */
+}

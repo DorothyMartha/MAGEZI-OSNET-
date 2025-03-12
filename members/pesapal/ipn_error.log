@@ -1,0 +1,11 @@
+2025-02-28 09:28:45 - Exception: Invalid status from Pesapal: 
+2025-02-28 09:29:04 - Exception: Invalid status from Pesapal: 
+2025-02-28 09:54:37 - Error: CURL Error: Failed to connect to www.pesapal.com port 443: Connection refused
+2025-02-28 10:00:48 - Error: cURL Error: Failed to connect to www.pesapal.com port 443: Connection refused
+2025-02-28 10:17:51 - Invalid Status: CURL Error: Failed to connect to www.pesapal.com port 443: Connection refused
+2025-02-28 10:17:56 - Invalid Status: CURL Error: Failed to connect to www.pesapal.com port 443: Connection refused
+2025-02-28 10:24:18 - CURL Error: Failed to connect to www.pesapal.com port 443: Connection refused
+2025-02-28 10:37:55 - HTTP Request Error: file_get_contents(https://www.pesapal.com/API/QueryPaymentStatus?oauth_consumer_key=XxJ0q6LwV6UlkZovkV0%2BvivcnBccFI7d&amp;oauth_nonce=%7B5E2AA372-7903-9C49-814C-9A90D5794F95%7D&amp;oauth_signature=x%2B4tlYjzpwryWboZPQ%2BgwkKpDz4%3D&amp;oauth_signature_method=HMAC-SHA1&amp;oauth_timestamp=1740739075&amp;oauth_version=1.0&amp;pesapal_merchant_reference=17407333135386&amp;pesapal_transaction_tracking_id=7b3269b9-5886-461a-a2e9-dc1a68b27d6f): Failed to open stream: Network is unreachable
+2025-02-28 10:37:57 - HTTP Request Error: file_get_contents(https://www.pesapal.com/API/QueryPaymentStatus?oauth_consumer_key=XxJ0q6LwV6UlkZovkV0%2BvivcnBccFI7d&amp;oauth_nonce=%7B5E745B86-4231-7C92-556A-58C122D9EE88%7D&amp;oauth_signature=ShKYnbnrtUX20I2Guvgu2FltwaA%3D&amp;oauth_signature_method=HMAC-SHA1&amp;oauth_timestamp=1740739077&amp;oauth_version=1.0&amp;pesapal_merchant_reference=17407333135386&amp;pesapal_transaction_tracking_id=7b3269b9-5886-461a-a2e9-dc1a68b27d6f): Failed to open stream: Network is unreachable
+2025-02-28 10:53:41 - Error: Cannot add or update a child row: a foreign key constraint fails (`ivnape_osnet`.`users`, CONSTRAINT `fk_membership_category` FOREIGN KEY (`membership_category_id`) REFERENCES `membership_categories` (`id`))
+2025-02-28 10:55:26 - Error: Cannot add or update a child row: a foreign key constraint fails (`ivnape_osnet`.`users`, CONSTRAINT `fk_membership_category` FOREIGN KEY (`membership_category_id`) REFERENCES `membership_categories` (`id`))

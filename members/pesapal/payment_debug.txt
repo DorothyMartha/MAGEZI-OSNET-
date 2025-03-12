@@ -1,0 +1,6 @@
+2025-02-28 04:16:45 - Received POST: plan=52, amount=1000.00, reference=17407161965487
+2025-02-28 04:30:27 - Received POST: plan=52, amount=1000.00, reference=17407170208808
+2025-02-28 05:17:49 - Received POST: plan=52, amount=1000.00, reference=17407198587260
+2025-02-28 05:57:29 - Received POST: plan=58, amount=500.00, reference=17407222419100
+2025-02-28 08:59:51 - Received POST: plan=59, amount=100.00, reference=17407331847926
+2025-02-28 09:02:07 - Received POST: plan=61, amount=500.00, reference=17407333135386

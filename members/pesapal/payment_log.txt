@@ -1,0 +1,6 @@
+2025-02-28 04:16:45 - Payment saved: user_id=36, amount=1000.00, reference=17407161965487, plan_id=52
+2025-02-28 04:30:27 - Payment saved: user_id=36, amount=1000.00, reference=17407170208808, plan_id=52
+2025-02-28 05:17:49 - Payment saved: user_id=36, amount=1000.00, reference=17407198587260, plan_id=52
+2025-02-28 05:57:29 - Payment saved: user_id=36, amount=500.00, reference=17407222419100, plan_id=58
+2025-02-28 08:59:51 - Payment saved: user_id=36, amount=100.00, reference=17407331847926, plan_id=59
+2025-02-28 09:02:07 - Payment saved: user_id=36, amount=500.00, reference=17407333135386, plan_id=61

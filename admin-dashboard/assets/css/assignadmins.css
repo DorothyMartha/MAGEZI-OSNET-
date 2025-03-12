@@ -1,0 +1,76 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #1f3d7a;
+    color: black;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.promote-btn {
+    background: #1f3d7a;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.promote-btn:hover {
+    background: #1557b0;
+}
+.top-nav {
+    background-color: #1f3d7a;
+    width: 80%; /* You can use percentages */
+    max-width: 870px; /* Or set a specific max width */
+    color: #F1F1F1;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px; /* Original padding kept */
+    left: 300px; /* Original left offset kept */
+    z-index: 1000;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+    height: 40px; /* Original height kept */
+    position: fixed; /* Changed to fixed for viewport sticking */
+    top: 0; /* Stick to top of screen */
+    border-radius: 8px;
+    
+    }
+    
+    .top-nav h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    color: #F1F1F1;
+    }
+    
+    .top-nav .user-info span {
+    font-size: 14px;
+    color: #E0E0E0;
+    }
+    .main-content {
+        margin-left: 220px;
+        padding: 20px;
+    }

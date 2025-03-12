@@ -1,0 +1,94 @@
+/* General form styling */
+.card-body {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form#rightcol {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+form#rightcol table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form#rightcol td {
+    padding: 8px 12px;
+}
+
+form#rightcol label {
+    font-size: 16px;
+    color: #333;
+}
+
+form#rightcol select,
+form#rightcol input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+form#rightcol select:focus,
+form#rightcol input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+form#rightcol input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form#rightcol input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+form#rightcol input[readonly] {
+    background-color: #f0f0f0;
+}
+
+form#rightcol hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+#refholder {
+    visibility: hidden;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 15px;
+    }
+
+    form#rightcol {
+        font-size: 14px;
+    }
+
+    form#rightcol td {
+        padding: 6px 8px;
+    }
+
+    form#rightcol input[type="submit"] {
+        font-size: 14px;
+    }
+}

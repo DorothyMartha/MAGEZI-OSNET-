@@ -1,0 +1,104 @@
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+.top-nav {
+background-color: #1f3d7a;
+width: 80%; /* You can use percentages */
+max-width: 870px; /* Or set a specific max width */
+color: #F1F1F1;
+font-family: 'Arial', sans-serif;
+font-size: 14px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 18px; /* Original padding kept */
+left: 300px; /* Original left offset kept */
+z-index: 1000;
+box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+border-bottom: 1px solid #ddd;
+height: 40px; /* Original height kept */
+position: fixed; /* Changed to fixed for viewport sticking */
+top: 0; /* Stick to top of screen */
+border-radius: 8px;
+
+}
+
+.top-nav h2 {
+font-size: 16px;
+font-weight: 700;
+margin: 0;
+color: #F1F1F1;
+}
+
+.top-nav .user-info span {
+font-size: 14px;
+color: #E0E0E0;
+}
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+.card.primary { background-color: #4f46e5; }
+.card.secondary { background-color: #ef4444; }
+.card.tertiary { background-color: #10b981; }
+.card h3 { margin: 0 0 10px; font-size: 1.2rem; }
+.card p { margin: 0; font-size: 1.5rem; }
+
+/* Table styles */
+.users-table-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-x: auto;
+}
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+.users-table th, .users-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.users-table th {
+    background-color: #f4f6f9;
+    color: #333;
+    font-weight: 600;
+}
+.users-table tr:hover {
+    background-color: #f9fafb;
+}
+.users-table td {
+    color: #666;
+}
+
+/* Search bar styles */
+.search-container {
+    margin-bottom: 20px;
+}
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+.search-container input[type="text"]:focus {
+    border-color: #4f46e5;
+    outline: none;
+}

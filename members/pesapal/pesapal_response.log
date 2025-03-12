@@ -1,0 +1,12 @@
+2025-02-28 09:28:45 - Pesapal Response: 
+2025-02-28 09:29:04 - Pesapal Response: 
+2025-02-28 09:54:37 - Signed Request URL: https://www.pesapal.com/API/QueryPaymentStatus?oauth_consumer_key=XxJ0q6LwV6UlkZovkV0%2BvivcnBccFI7d&oauth_nonce=%7BB0C67D30-F2B8-FB44-BF4F-A17EC4E91C8B%7D&oauth_signature=UNE0VNxC4BcOFYjjlHzwohlWF8o%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1740736477&oauth_version=1.0&pesapal_merchant_reference=17407333135386&pesapal_transaction_tracking_id=7b3269b9-5886-461a-a2e9-dc1a68b27d6f
+2025-02-28 09:54:37 - Signed Headers: Authorization: OAuth realm="",oauth_version="1.0",oauth_nonce="%7BB0C67D30-F2B8-FB44-BF4F-A17EC4E91C8B%7D",oauth_timestamp="1740736477",oauth_consumer_key="XxJ0q6LwV6UlkZovkV0%2BvivcnBccFI7d",oauth_signature_method="HMAC-SHA1",oauth_signature="UNE0VNxC4BcOFYjjlHzwohlWF8o%3D"
+2025-02-28 10:17:51 - API Status: CURL Error: Failed to connect to www.pesapal.com port 443: Connection refused
+2025-02-28 10:17:56 - API Status: CURL Error: Failed to connect to www.pesapal.com port 443: Connection refused
+2025-02-28 10:24:18 - API Status: PENDING
+2025-02-28 10:37:55 - API Status: PENDING
+2025-02-28 10:37:57 - API Status: PENDING
+2025-02-28 10:47:22 - API Status (Fallback): COMPLETED
+2025-02-28 10:53:41 - API Status (Fallback): COMPLETED
+2025-02-28 10:55:26 - API Status (Fallback): COMPLETED

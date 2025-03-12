@@ -1,0 +1,38 @@
+.top-nav {
+    background-color: #1f3d7a;
+    width: 90%;
+    max-width: 910px;
+    color: #F1F1F1;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px;
+    left: 270px;
+    z-index: 1000;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+    position: fixed; /* Use sticky instead of fixed */
+    top: 10px; /* Adjust the space from the top */
+    border-radius: 8px;
+}
+
+    
+    .top-nav h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    color: #F1F1F1;
+    }
+    
+    .top-nav .user-info span {
+    font-size: 14px;
+    color: #E0E0E0;
+    }
+    .main-content {
+        margin-left: 220px;
+        padding: 20px;
+    }
+

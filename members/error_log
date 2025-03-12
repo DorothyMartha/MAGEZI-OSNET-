@@ -1,0 +1,32 @@
+[05-Mar-2025 14:12:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/mageziac/public_html/osnet/members/reports.php:313
+Stack trace:
+#0 /home/mageziac/public_html/osnet/members/reports.php(313): mysqli->__construct('pdb1992.awardsp...', 'ivnape_osnet', Object(SensitiveParameterValue), 'ivnape_osnet')
+#1 {main}
+  thrown in /home/mageziac/public_html/osnet/members/reports.php on line 313
+[05-Mar-2025 14:16:26 UTC] PHP Warning:  Undefined variable $user in /home/mageziac/public_html/osnet/members/reports.php on line 315
+[05-Mar-2025 14:16:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/mageziac/public_html/osnet/members/reports.php on line 315
+[05-Mar-2025 14:16:26 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/mageziac/public_html/osnet/members/reports.php:398
+Stack trace:
+#0 /home/mageziac/public_html/osnet/members/reports.php(398): mysqli->query('SELECT DATE(cre...')
+#1 {main}
+  thrown in /home/mageziac/public_html/osnet/members/reports.php on line 398
+[05-Mar-2025 14:17:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/mageziac/public_html/osnet/members/membership.php:232
+Stack trace:
+#0 /home/mageziac/public_html/osnet/members/membership.php(232): mysqli->__construct('pdb1992.awardsp...', 'ivnape_osnet', Object(SensitiveParameterValue), 'ivnape_osnet')
+#1 {main}
+  thrown in /home/mageziac/public_html/osnet/members/membership.php on line 232
+[05-Mar-2025 14:21:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/mageziac/public_html/osnet/members/membership.php:232
+Stack trace:
+#0 /home/mageziac/public_html/osnet/members/membership.php(232): mysqli->__construct('pdb1992.awardsp...', 'ivnape_osnet', Object(SensitiveParameterValue), 'ivnape_osnet')
+#1 {main}
+  thrown in /home/mageziac/public_html/osnet/members/membership.php on line 232
+[05-Mar-2025 14:22:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/mageziac/public_html/osnet/members/membership.php:232
+Stack trace:
+#0 /home/mageziac/public_html/osnet/members/membership.php(232): mysqli->__construct('pdb1992.awardsp...', 'ivnape_osnet', Object(SensitiveParameterValue), 'ivnape_osnet')
+#1 {main}
+  thrown in /home/mageziac/public_html/osnet/members/membership.php on line 232
+[05-Mar-2025 14:24:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/mageziac/public_html/osnet/members/membership.php:232
+Stack trace:
+#0 /home/mageziac/public_html/osnet/members/membership.php(232): mysqli->__construct('pdb1992.awardsp...', 'ivnape_osnet', Object(SensitiveParameterValue), 'ivnape_osnet')
+#1 {main}
+  thrown in /home/mageziac/public_html/osnet/members/membership.php on line 232

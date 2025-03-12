@@ -1,0 +1,204 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2C4C93, #5d80f5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Glassmorphism Effect */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Logo */
+img.img-responsive {
+    max-width: 120px;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.input-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fff;
+    color: #1f3d7a;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: #1f3d7a;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1f3d7a;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFC107;
+    box-shadow: 0 3px 8px rgba(255, 215, 0, 0.4);
+}
+
+/* Error Messages */
+p {
+    background: rgba(255, 0, 0, 0.1);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+  
+  /* .search-form {
+    border-radius: 15px;
+  } */
+  
+  .search-icon {
+    position: absolute;
+    left: 10px; /* Adjust the left position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .search-icon i {
+    color: grey; /* Set icon color */
+  }
+  
+  
+  .nav-link {
+    text-decoration: none !important;
+  }
+  
+
+  .additional-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .additional-buttons .btn {
+    flex: 1;
+    padding: 5px 10px;
+    width: 48%; /* Shortened width */
+    font-size: 14px; /* Reduced font size */
+  }
+  
+  .additional-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  a{
+      text-decoration:none;
+  }
+  
+  
+  
+  /* CSS */
+  /* For smaller screens (mobile devices) */
+  @media only screen and (max-width: 768px) {
+    body {
+      overflow-x: hidden; /* Hide horizontal overflow */
+      /* overflow-y: hidden; Remove this line */
+    }
+  }
+  
+  
+  /* CSS */
+  /* For smaller screens (mobile devices) */
+  @media only screen and (max-width: 768px) {
+    .img-responsive {
+        max-width: 70%; /* Adjust the percentage as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+  }
+  /* CSS */
+  /* For smaller screens (mobile devices) */
+  @media only screen and (max-width: 768px) {
+    .input-responsive {
+        width: 80%; /* Adjust the width percentage as needed */
+        max-width: 300px; /* Adjust the maximum width as needed */
+    }
+  }
+  
+  /* For smaller screens (mobile devices) */
+  @media only screen and (max-width: 768px) {
+    .footer-links {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      overflow-x: auto; /* Enable horizontal scrolling if needed */
+    }
+  
+    .footer-links .btn-link {
+      font-size: 12px; /* Adjust font size as needed */
+      margin: 0 5px; /* Adjust spacing between links */
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
